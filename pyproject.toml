@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fast-legion"
+version = "0.1.0"
+description = "A JWT Security Bundle that let's you choose your favorite data layer for the FastAPI framework."
+authors = ["David Emmanuel Asaf <me@davideasaf.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+fastapi = "^0.54.1"
+pydantic = "^1.5"
+pyjwt = "^1.7.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+sqlalchemy = "^1.3.16"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

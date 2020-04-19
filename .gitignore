@@ -1,0 +1,9 @@
+.idea
+.cache/
+.mypy_cache/
+.pytest_cache/
+__pycache__
+*.egg-info/
+.vscode/
+dist/
+setup.py
