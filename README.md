@@ -54,12 +54,12 @@ Legion(
 
 ### Parameters
 
-1. lookup_by_username: function to return the user given a username
-1. lookup_by_id: function to return the user given an id
-1. get_user_rolenames: function that takes a user and returns list of string usernames
-1. get_user_password_hash: function that takes a user and returns their hashed password
-1. get_user_id: function that takes a user and returns their id
-1. config: Pydantic Model imported from Fast Legion. Contains all the configurations for Fast Legion (the above shows Fast Legion using all defaults)
+1. **lookup_by_username**: function to return the user given a username
+1. **lookup_by_id**: function to return the user given an id
+1. **get_user_rolenames**: function that takes a user and returns list of string usernames
+1. **get_user_password_hash**: function that takes a user and returns their hashed password
+1. **get_user_id: function**: that takes a user and returns their id
+1. **config**: Pydantic Model imported from Fast Legion. Contains all the configurations for Fast Legion (the above shows Fast Legion using all defaults)
 
 for the function signatures, refer to the <a href="https://github.com/davideasaf/fast-legion/tree/master/examples/basic.py" target="_blank">Minimal Example</a>
 
