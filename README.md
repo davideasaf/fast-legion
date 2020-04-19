@@ -39,6 +39,8 @@ from fast_legion import (
     LegionConfig,
 )
 
+api = FastAPI(title="Basic API Demo for Fast Legion")
+
 Legion(
     api,
     lookup_by_username=lookup_by_username,
